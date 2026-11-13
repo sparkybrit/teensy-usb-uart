@@ -1,0 +1,23 @@
+{
+  "name": "LUFA",
+  "version": "2021.1.30",
+  "description": "LUFA 210130 (github.com/abcminiuser/lufa, tag LUFA-210130), LUFA/ directory unmodified. Only the AVR8 USB device core and the CDC device class are compiled.",
+  "license": "MIT",
+  "build": {
+    "srcDir": "LUFA",
+    "includeDir": ".",
+    "srcFilter": [
+      "-<*>",
+      "+<Drivers/USB/Core/AVR8/USBController_AVR8.c>",
+      "+<Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c>",
+      "+<Drivers/USB/Core/AVR8/Device_AVR8.c>",
+      "+<Drivers/USB/Core/AVR8/Endpoint_AVR8.c>",
+      "+<Drivers/USB/Core/AVR8/EndpointStream_AVR8.c>",
+      "+<Drivers/USB/Core/ConfigDescriptors.c>",
+      "+<Drivers/USB/Core/DeviceStandardReq.c>",
+      "+<Drivers/USB/Core/Events.c>",
+      "+<Drivers/USB/Core/USBTask.c>",
+      "+<Drivers/USB/Class/Device/CDCClassDevice.c>"
+    ]
+  }
+}

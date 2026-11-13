@@ -1,0 +1,14 @@
+{
+  "build": {
+    "f_cpu": "16000000L",
+    "mcu": "atmega32u4"
+  },
+  "name": "Teensy 2.0 (bare avr-gcc, HalfKay bootloader)",
+  "upload": {
+    "maximum_ram_size": 2560,
+    "maximum_size": 32256,
+    "protocol": "custom"
+  },
+  "url": "https://www.pjrc.com/store/teensy.html",
+  "vendor": "PJRC"
+}
